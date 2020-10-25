@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+}
+body{
+    background: #eee;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    font-family: JetBrains mono;
+}
+:focus{
+    outline: none;
+}
+.wrapper {
+    background: #ffa84e;
+    width: 768px;
+    margin: 0 auto;
+    height: 61vh;
+    display: grid;
+    align-items: center;
+    border-radius: 9px;
+}
+
+form#form-group .inputNum {
+    font-size: 24px;
+    overflow: hidden;
+}
+
+input#hexadecimal {
+    width: 96.7%;
+    font-size: 34px;
+    padding: 6px 12px;
+    margin: 20px 0px;
+    margin-top: 10px;
+    border-radius: 11px;
+    border: none;
+    font-family: JetBrains mono;
+}
+
+form#form-group h4 {
+    color: #fff;
+    font-size: 33px;
+    margin-bottom: 27px;
+}
+
+form#form-group {
+    padding: 14px;
+}
+
+.outputNum h3 {
+    font-size: 36px;
+    font-weight: 400;
+    border-bottom: 1px solid;
+    background: #fff;
+    border-radius: 10px;
+    padding: 2px 10px;
+    cursor:text;
+}
+
+.outputNum {
+    margin-bottom: 40px;
+}
+
+.outputNum h3 span {
+    visibility:hidden;
+}
+
+.submitBtn {
+    text-align: center;
+}
+
+.submitBtn #btn {
+    border: none;
+    font-size: 30px;
+    width: 150px;
+    background: #042bff;
+    color: #fff;
+    font-weight: bold;
+    font-family: JetBrains mono;
+    padding: 8px;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
